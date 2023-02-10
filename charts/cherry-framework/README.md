@@ -20,6 +20,18 @@ $ cd to the zeebe-cherry-framework-helm directory
 $ helm install demo charts/cherry-framework
 ```
 
+Alternate use Kind in Kubernetes. Use Make to install the zeebe cherry framework for you in kind.
+> **Note**
+> You will need to install Make and Kind.
+> You can find the [Makefile here](https://github.com/camunda-community-hub/zeebe-cherry-framework-helm/blob/main/Makefile)
+
+```sh
+$ cd to the zeebe-cherry-framework-helm directory
+$ make
+```
+
+
+
 ## Links
 
 * Camunda homepage: https://camunda.com
