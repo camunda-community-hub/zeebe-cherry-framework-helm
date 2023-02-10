@@ -1,4 +1,4 @@
-# Zeebe Cherry Framework 7 Helm Chart
+# Zeebe Cherry Framework Helm Chart
 
 A Helm chart for Zeebe Cherry Framework, the open-source zeebe worker framework.
 
@@ -52,7 +52,7 @@ The image used in the chart is `latest`.
 One of the [supported databases](https://docs.camunda.org/manual/latest/introduction/supported-environments/#databases)
 could be used as a database for Zeebe Cherry Framework.
 
-The H2 database is used by default which works fine if you just want to test Zeebe Cherry Framework 7.
+The H2 database is used by default which works fine if you just want to test Zeebe Cherry Framework.
 But since the database is embedded, only 1 deployment replica could be used.
 
 For real-world workloads, an external database like PostgreSQL should be used.
@@ -86,7 +86,7 @@ database:
 
 ### Metrics
 
-Enable Prometheus metrics for Zeebe Cherry Framework 7 by setting the following in the values file:
+Enable Prometheus metrics for Zeebe Cherry Framework by setting the following in the values file:
 
 ```yaml
 metrics:

@@ -3,8 +3,8 @@ name: cherry-framework
 description: |
   Community Helm chart for Zeebe Cherry Framework.
 type: application
-version: 7.6.1
-appVersion: 7.x.x
+version: 0.0.1
+appVersion: 8.x.x
 keywords:
   - bpm
   - bpmn
