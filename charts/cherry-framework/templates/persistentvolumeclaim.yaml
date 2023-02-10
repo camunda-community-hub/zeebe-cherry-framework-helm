@@ -1,0 +1,14 @@
+{{- if eq (include "zeebe-cherry-framework.h2DatabaseIsUsed" .) "true" -}}
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: {{ include "zeebe-cherry-framework.fullname" . }}-database-h2
+  labels:
+    {{- include "zeebe-cherry-framework.labels" . | nindent 4 }}
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1G
+{{- end }}

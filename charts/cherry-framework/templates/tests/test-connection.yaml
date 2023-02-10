@@ -1,0 +1,23 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "{{ include "zeebe-cherry-framework.fullname" . }}-test-connection"
+  labels:
+    {{- include "zeebe-cherry-framework.labels" . | nindent 4 }}
+  annotations:
+    "helm.sh/hook": test
+spec:
+  containers:
+    - name: curl
+      image: curlimages/curl
+      command: ['curl']
+      # Camunda BPM Platform service could take sometime to start, so setting a retry mechanism.
+      args: [
+        '--retry-connrefused',
+        '--connect-timeout', '5',
+        '--max-time', '10',
+        '--retry', '15',
+        '--retry-max-time', '300',
+        '{{ include "zeebe-cherry-framework.fullname" . }}:{{ .Values.service.port }}',
+      ]
+  restartPolicy: Never
