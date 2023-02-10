@@ -12,12 +12,14 @@ A Helm chart for Zeebe Cherry Framework, the open-source BPM platform.
 
 ## Install
 
-```sh
-#TODO: publish helm chart
-#$ helm repo add camunda https://helm.cch.camunda.cloud
-#$ helm repo update
-#$ helm install cherry-demo camunda/zeebe-cherry-framework
+<!--
+# TODO: publish helm chart
+$ helm repo add camunda https://helm.cch.camunda.cloud
+$ helm repo update
+$ helm install cherry-demo camunda/zeebe-cherry-framework
+ -->
 
+```sh
 $ cd to the zeebe-cherry-framework-helm directory
 $ helm install demo charts/cherry-framework
 ```
@@ -73,7 +75,7 @@ readinessProbe:
   enabled: true
   config:
     httpGet:
-      path: /engine-rest/incident/count
+      path: /cherry
       port: http
     initialDelaySeconds: 120
     periodSeconds: 60
@@ -153,12 +155,12 @@ extraContainers:
 
 ### Image
 
-Zeebe Cherry Framework open-source Docker image comes in 3 distributions `tomcat`, `wildfly`, and `run`.
-Each distro has different tags, check the list of
-[supported tags/releases](https://github.com/camunda-community-hub/docker-zeebe-cherry-framework#supported-tagsreleases)
+Zeebe Cherry Framework open-source [Docker image is here](https://github.com/camunda-community-hub/zeebe-cherry-framework/pkgs/container/zeebe-cherry-framework)
+check the list of
+[supported tags/releases](https://github.com/camunda-community-hub/zeebe-cherry-framework/releases)
 by Zeebe Cherry Framework docker project for more details.
 
-The image used in the chart is `latest` (which's actually `tomcat-latest`).
+The image used in the chart is `latest`.
 
 ### Database
 
