@@ -1,10 +1,6 @@
 # Zeebe Cherry Framework 7 Helm Chart
-![Community Extension](https://img.shields.io/badge/Community%20Extension-An%20open%20source%20community%20maintained%20project-FF4700)
-[![Lifecycle:Incubating](https://img.shields.io/badge/Lifecycle-Incubating-blue)](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md#incubating-)
-![Compatible with: Camunda Platform 8](https://img.shields.io/badge/Compatible%20with-Camunda%20Platform%207-26d07c)
-[![Camunda BPM Platform](https://img.shields.io/badge/dynamic/yaml?label=Camunda%20BPM%20Platform&query=version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fcamunda-community-hub%2Fcamunda-helm%2Fmain%2Fcharts%2Fcamunda-bpm-platform%2FChart.yaml?style=plastic&logo=artifacthub&logoColor=white&labelColor=417598&color=2D4857)](https://artifacthub.io/packages/helm/camunda-community-hub/camunda-bpm-platform)
 
-A Helm chart for Zeebe Cherry Framework, the open-source BPM platform.
+A Helm chart for Zeebe Cherry Framework, the open-source zeebe worker framework.
 
 > **Note**
 >
