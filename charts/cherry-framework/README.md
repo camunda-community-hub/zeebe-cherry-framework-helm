@@ -45,6 +45,7 @@ check the list of
 by Zeebe Cherry Framework docker project for more details.
 
 The image used in the chart is `latest`.
+<!--
 
 ### Database
 
@@ -102,3 +103,5 @@ metrics:
 
 If there is a Prometheus configured in the cluster, it will scrap the metrics service automatically.
 Check the notes after the deployment for more details about the metrics endpoint.
+
+-->
