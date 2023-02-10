@@ -1,15 +1,15 @@
 # Camunda Community Helm
 ![Community Extension](https://img.shields.io/badge/Community%20Extension-An%20open%20source%20community%20maintained%20project-FF4700)
 [![Lifecycle:Incubating](https://img.shields.io/badge/Lifecycle-Incubating-blue)](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md#incubating-)
-![Compatible with: Camunda Platform 7](https://img.shields.io/badge/Compatible%20with-Camunda%20Platform%207-26d07c)
+![Compatible with: Camunda Platform 8](https://img.shields.io/badge/Compatible%20with-Camunda%20Platform%208-0072CE)
 [![Artifact HUB](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/camunda)](https://artifacthub.io/packages/search?repo=camunda-community-hub)
 
 Zeebe Cherry Framework public Kubernetes Helm repo and charts.
 
 > **Note**
 >
-> This repo is a community effort for **Camunda Platform 8**, see [**Camunda Platform 8** Helm repo](https://github.com/camunda/camunda-platform-helm).
-> For more on running the chart go to [**Zeebe Cherry Framework Charts**](https://github.com/camunda-community-hub/zeebe-cherry-framework-helm/cherry-framework/charts/README.md).
+> This repo is a community effort for **Camunda Platform 8**, for more on running Camunda 8 see [**Camunda Platform 8** Helm repo](https://github.com/camunda/camunda-platform-helm).
+> For more on running the chart go to [**Zeebe Cherry Framework Charts**](./charts/cherry-framework/README.md).
 
 <!-- ## Repository
 
