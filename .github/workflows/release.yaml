@@ -118,7 +118,7 @@ jobs:
           fetch-depth: 0
 
       - name: Unstash generated charts changelog files
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: charts-generated-changelog
           path: charts
@@ -154,7 +154,7 @@ jobs:
           fetch-depth: 0
 
       - name: Unstash generated charts changelog files
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: charts-generated-changelog
           path: charts
