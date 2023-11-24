@@ -100,7 +100,7 @@ jobs:
           done
 
       - name: Stash generated charts changelog files
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: charts-generated-changelog
           path: |
